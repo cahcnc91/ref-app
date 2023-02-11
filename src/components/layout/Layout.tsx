@@ -1,4 +1,5 @@
 import Navbar from './NavBar';
+import Footer from './Footer';
 import { ReactNode, FC } from 'react';
 
 const Layout: FC<{ children: ReactNode }> = ({ children }) => {
@@ -6,6 +7,7 @@ const Layout: FC<{ children: ReactNode }> = ({ children }) => {
     <>
       <Navbar />
       <main>{children}</main>
+      <Footer />
     </>
   );
 };
