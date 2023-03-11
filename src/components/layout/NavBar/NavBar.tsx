@@ -16,7 +16,7 @@ import styles from './navbar.module.css';
 const pages = ['Products', 'Pricing', 'Blog'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
-function NavBar() {
+export const NavBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(
     null
   );
@@ -163,4 +163,3 @@ function NavBar() {
     </AppBar>
   );
 }
-export default NavBar;
