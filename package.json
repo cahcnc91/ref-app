@@ -9,7 +9,7 @@
     "lint": "next lint",
     "prepare": "husky install",
     "pre-commit": "next lint",
-    "test": "jest --watch"
+    "test": "jest --coverage"
   },
   "engines": {
     "npm": ">=9.3.1",
